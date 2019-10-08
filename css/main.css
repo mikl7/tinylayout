@@ -222,3 +222,8 @@ flex:0;
     font-weight: 900;
 
 }
+.links__group > a{
+    font-weight: 900;
+    font-size: 13px;
+
+}
