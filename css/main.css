@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+a,ul,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background: gold; 
+}
+.nav__bar{
+    display: flex;
+    padding-top: 1%;
+}
+.nav__logo{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    
+}
+.nav__logo > strong{
+    padding: 2%;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+}
+nav{
+    flex:1;
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content:space-between;
+}
+.nav__menu > li > a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.section__slider{
+    background: gold;
+}
+.content{
+    display: flex;
+    padding-top: 6%;
+    flex:12
+}
+.left__content{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-top: 7%;
+}
+.left__content > h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+.left__content > h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+    margin: 0;
+}
+.left__content > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+}
+.left__content > a > img{
+    padding-left:50px;
+    padding-top:20px;
+}
+.left__content > a > img:nth-child(1){
+    padding-left:0px;
+}
+.right__content{
+    display: flex;
+    margin-right: 1.5%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex: 6;
+}
+.clear-slider{
+    display: flex;
+    justify-content: center;
+    padding-top:4%;
+    padding-bottom: 3%;
+}
+.header__features{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 45%;
+}
+.header__features > h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.header__features > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+.container > ul{
+    display: flex;
+    padding: 0;
+    margin-top: 8%;
+}
+.container > ul > li{
+    display: flex;
+}
+.container > ul > li > a{
+    flex:2 ;
+}
+.featured{
+   display:flex;
+   flex-direction: column;
+   flex:6;
+   margin-right: 20%;
+}
+.featured > a > h5{
+    margin: 0;
+    color:black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.featured> p{
+    color:rgb(126, 125, 125);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+footer{
+    margin-top: 10%;
+    background: black;
+}
+.subcrible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding:0 5rem
+}
+.subcrible > h2 {
+    margin: 0;
+    padding-top: 10%;
+    color: gold;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+
+}
+.subcrible > p{
+    color:rgb(126, 125, 125);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+form{
+    display: flex;
+    margin-right: 2%;
+}
+form > input{
+  padding: 1rem 33rem 1rem 2rem;
+  border: 1px solid white;
+  border-radius: .50rem;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color:rgb(126, 125, 125);
+}
+form > button{
+    padding: 1rem 3rem;
+    margin-left: 3%;
+    border: 1px solid gold;
+    border-radius: .50rem;
+    background-color: gold;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight:700;
+}
+.subcrible > ul{
+    display: flex;
+    padding: 0;
+}
+.subcrible > ul > li{
+padding: 3rem 1rem 0 1rem
+}
+.footer__widgets{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__widgets{
+    margin-top: 5%;
+}
+.address{
+color: white;
+font-family: 'PT Sans', sans-serif;
+font-size: 12px;
+flex:0;
+}
+.links__group{
+    flex:0;
+}
+.address > p{
+    margin-top:2px;
+}
+.links__group > a{
+    color: white;
+font-family: 'PT Sans', sans-serif;
+font-size: 13px;
+flex:0;
+}
+.address > p{
+    font-size: 12px;
+}
+.links__group > a{
+    font-weight: 900;
+
+}
